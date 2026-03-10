@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+--primary-color: #71adf1;
+--secondary-color: #f5f5f5;
+--title: #94928d;
+--contrast: #f39797;
+--text-base: #1f1fff1f;
+--cta: #ff6f61;
+--background: #3f3e3e;
+--text-color: #e4dada;
+--gradient1: linear-gradient(135deg, #70a9e9, #f5f5f5);
+--gradient2: linear-gradient(135deg, #cf8989, #8995a3);
+--font-base: 'Roboto', sans-serif;
+--font-tiltle: 'Playfair', serif;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: var(--font-base);
+text-decoration: none;
+list-style: none;
+}
+
+body{
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-tiltle);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
