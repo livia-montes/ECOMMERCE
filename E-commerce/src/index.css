@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
 --primary-color: #71adf1;
 --secondary-color: #f5f5f5;
---title: #94928d;
+--title: #333333;
 --contrast: #f39797;
---text-base: #1f1fff1f;
+--text-base: #7575caa4;
 --cta: #ff6f61;
---background: #3f3e3e;
+--background: #7a7a7a;
 --text-color: #e4dada;
 --gradient1: linear-gradient(135deg, #70a9e9, #f5f5f5);
---gradient2: linear-gradient(135deg, #cf8989, #8995a3);
---font-base: 'Roboto', sans-serif;
---font-tiltle: 'Playfair', serif;
+--gradient2: linear-gradient(135deg, #cf8989, #303438);
+--font-base: "Delius", cursive;
+--font-tiltle: "Sour Gummy", sans-serif;
 }
 
 *{
