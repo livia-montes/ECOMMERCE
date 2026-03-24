@@ -1,0 +1,1 @@
+import './Capa.css'
