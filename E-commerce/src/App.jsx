@@ -1,5 +1,6 @@
 import './App.css'
 import Topo from './components/Topo'
+import Capa from './components/Capa'
 
 function App() {
 
@@ -8,6 +9,10 @@ function App() {
       <header>
         <Topo />
       </header>
+
+      <main>
+        <Capa/>
+      </main>
     </div>
   )
 }
