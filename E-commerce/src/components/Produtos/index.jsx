@@ -74,17 +74,17 @@ export default function Produtos() {
                             <p className='preco'>R$ 1000,00</p>
                             <button className='btn'>Comprar agora</button>
                         </div>
+                    </div>
 
-                        <div className='card'>
-                            <div className='card-image'>
-                                <img src={note} alt="Porta Notebook" />
-                                <span className='badge-venda'>Novidade</span>
-                            </div>
-                            <div className='card-info'>
-                                <h3>Porta Notebook</h3>
-                                <p className='preco'>R$ 99,90</p>
-                                <button className='btn'>Comprar agora</button>
-                            </div>
+                    <div className='card'>
+                        <div className='card-image'>
+                            <img src={note} alt="Porta Notebook" />
+                            <span className='badge-venda'>Novidade</span>
+                        </div>
+                        <div className='card-info'>
+                            <h3>Porta Notebook</h3>
+                            <p className='preco'>R$ 99,90</p>
+                            <button className='btn'>Comprar agora</button>
                         </div>
                     </div>
                 </div>

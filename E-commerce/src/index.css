@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Noto+Serif+Display:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
 
 :root {
---primary-color: #894f2f;
+--primary-color: #16a3a8;
 --secondary-color: #eaa24a;
 --title: #d9bdaf;
 --contrast: #eaa24a;
 --text-base: #422e1f;
 --cta: #f05a30;
 --background: #0b595c;
---text-color: #e7c295;
---gradient1: linear-gradient(135deg, #c34930, #d9bdaf);
---gradient2: linear-gradient(135deg, #f05a30, #d9bdaf);
+--text-color: #1d1d1d;
+--gradient1: linear-gradient(135deg, #c34930, #ffd560);
+--gradient2: linear-gradient(135deg, #f05a30, #ffe760);
 --font-base: "Gelasio";
 --font-tiltle: "Noto+Serif+Display"
 }
@@ -95,7 +95,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 10px 100px;
-    background-color: var(--text-color);
+    background-color: var(--title);
     position: sticky;
     top: 0;
     width: 100%;
